@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:25.0
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install
